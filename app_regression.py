@@ -12,7 +12,7 @@ st.title('Import Value Prediction App')
 # Input fields for user to enter data
 weight = st.number_input('Enter weight (น้ำหนัก สถิติ):')
 volume = st.number_input('Enter volume (ปริมาณ สถิติ):')
-unit = st.selectbox('Select unit (หน่วยปริมาณ):', ['BG','KGM','LO','SA','TNE','CT','C62','PK','BX','SH','PA'])  # Replace with actual units
+unit = st.selectbox('Select unit (หน่วยปริมาณ):', ['BK','BX','CT','KGM','PK','CS','PA','C62','SET','BE','EA','PU','D97','TNE','CK','BG','CR'])  # Replace with actual units
 country = st.selectbox('Select country (ประเทศถิ่นกำเนิด):', ['CN','IN','PE','AU','JP','US','ZA','CL','KR','CA','PL','UA','NZ','KE','TR'])  # Replace with actual units
 #'statistic_weight', 'statistic_qty', 'qty_unit', 'country_of_origin'
 # Create a DataFrame for the input
